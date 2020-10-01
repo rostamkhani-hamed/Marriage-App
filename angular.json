@@ -24,7 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/custom-theme.scss",
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+              
             ],
             "scripts": []
           },
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "marriage-app"
+    }
+  },
+  "defaultProject": "marriage-app",
+  "cli": {
+    "analytics": "55d44cb7-6af9-430c-b7a4-ade1f63a0c51"
+  }
 }

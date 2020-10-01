@@ -6,8 +6,30 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="mat-typography">
   <app-root></app-root>
+  <script>
+    var i = 1;
+    window.onload = function (){
+      setInterval(repeatImg,3000);
+    };
+
+    function repeatImg (){
+      if (i == 4){
+        i=0;
+      }
+      var img = document.getElementById('hdimg');
+      var imgSrc = ['/assets/Images/face111.png','/assets/Images/face222.png','/assets/Images/face333.png','/assets/Images/face444.png'];
+      img.style.backgroundImage = "url("+imgSrc[i]+")";
+      i++;
+    }
+
+
+  </script>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
