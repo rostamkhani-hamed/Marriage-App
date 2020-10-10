@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import { PageOneHeaderComponent } from './page-one-header/page-one-header.component';
 import { PageOneMiddleComponent } from './page-one-middle/page-one-middle.component';
+import { PageOneFooterComponent } from './page-one-footer/page-one-footer.component';
 
 
 
@@ -25,7 +26,8 @@ import { PageOneMiddleComponent } from './page-one-middle/page-one-middle.compon
   declarations: [
     AppComponent,
     PageOneHeaderComponent,
-    PageOneMiddleComponent
+    PageOneMiddleComponent,
+    PageOneFooterComponent
   ],
   imports: [
     BrowserModule,
