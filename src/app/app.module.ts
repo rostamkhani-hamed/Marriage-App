@@ -15,6 +15,10 @@ import { PageOneHeaderComponent } from './page-one-header/page-one-header.compon
 import { PageOneMiddleComponent } from './page-one-middle/page-one-middle.component';
 import { PageOneFooterComponent } from './page-one-footer/page-one-footer.component';
 import { PageOneBackgroundComponent } from './page-one-background/page-one-background.component';
+import { PageTwoComponent } from './page-two/page-two.component';
+import { PageThreeComponent } from './page-three/page-three.component';
+import { PageFourComponent } from './page-four/page-four.component';
+import { PageFiveComponent } from './page-five/page-five.component';
 
 
 
@@ -29,7 +33,11 @@ import { PageOneBackgroundComponent } from './page-one-background/page-one-backg
     PageOneHeaderComponent,
     PageOneMiddleComponent,
     PageOneFooterComponent,
-    PageOneBackgroundComponent
+    PageOneBackgroundComponent,
+    PageTwoComponent,
+    PageThreeComponent,
+    PageFourComponent,
+    PageFiveComponent
   ],
   imports: [
     BrowserModule,

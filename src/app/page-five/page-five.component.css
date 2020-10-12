@@ -1,0 +1,25 @@
+div{
+    text-align: center; 
+    background-image: url('/assets/Images/fallpage.png'); 
+    height: 10cm;
+}
+table{
+    border: none; 
+    text-align: center; 
+    margin-bottom: 1cm; 
+    width: 100%;
+}
+.spanHeader{
+    font-family: iranSans; 
+    color:  white; 
+    font-size: 45px; 
+    font-weight: bold;
+}
+.spanMiddle{
+    color: white ; 
+    font-family: iranSans; 
+    font-size: 25px; 
+    line-height: 60px; 
+    text-justify: auto; 
+    text-align: justify;
+}

@@ -1,0 +1,39 @@
+table{
+    border: none; 
+    margin-bottom: 1cm ; 
+    text-align: center;
+    width: 100%; 
+    background-color: #F2F2F2;
+}
+.BtnSpan{
+    font-family: iranSans; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+.MiddleSpan{
+    font-family: iranSans;
+     font-size: 18px;
+      line-height: 60px; 
+      text-justify: auto; 
+      text-align: justify;
+}
+.HeaderSpan{
+    font-family: iranSans; 
+    color:  black;
+     font-size: 35px; 
+     font-weight: bold;
+}
+button{
+    width: 3cm ; 
+    background-size: cover ; 
+    background-image: url('/assets/Images/button.PNG') ; 
+    background-color:#f16c50; color: white;
+}
+.tdMarginLeftRight{
+    border: none ;
+    width:17cm
+}
+.tdorigin{
+    border: none; 
+    height: 1cm; 
+}

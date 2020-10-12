@@ -1,0 +1,32 @@
+table{
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1cm;
+}
+.spanHeader{
+    font-family: iranSans; 
+    color:  black; 
+    font-size: 35px; 
+    font-weight: bold;
+}
+.spanMiddle{
+    font-family: iranSans; 
+    font-size: 18px; 
+    line-height: 60px; 
+    text-justify: auto; 
+    text-align: justify;
+}
+button{
+    width: 3cm ;
+    background-size: cover ; 
+    background-image: url('/assets/Images/button.PNG') ; 
+    background-color:#f16c50; 
+    color: white;
+}
+.btnSpan{
+    font-family: iranSans; 
+    font-weight: bold; 
+    font-size: 18px;
+}
