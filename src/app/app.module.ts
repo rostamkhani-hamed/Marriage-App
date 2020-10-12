@@ -14,6 +14,7 @@ import {MatTableModule} from '@angular/material/table';
 import { PageOneHeaderComponent } from './page-one-header/page-one-header.component';
 import { PageOneMiddleComponent } from './page-one-middle/page-one-middle.component';
 import { PageOneFooterComponent } from './page-one-footer/page-one-footer.component';
+import { PageOneBackgroundComponent } from './page-one-background/page-one-background.component';
 
 
 
@@ -27,7 +28,8 @@ import { PageOneFooterComponent } from './page-one-footer/page-one-footer.compon
     AppComponent,
     PageOneHeaderComponent,
     PageOneMiddleComponent,
-    PageOneFooterComponent
+    PageOneFooterComponent,
+    PageOneBackgroundComponent
   ],
   imports: [
     BrowserModule,
