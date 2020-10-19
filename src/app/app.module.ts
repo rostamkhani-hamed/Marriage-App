@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { APP_BOOTSTRAP_LISTENER, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +19,9 @@ import { PageTwoComponent } from './page-two/page-two.component';
 import { PageThreeComponent } from './page-three/page-three.component';
 import { PageFourComponent } from './page-four/page-four.component';
 import { PageFiveComponent } from './page-five/page-five.component';
+import { PageSixComponent } from './page-six/page-six.component';
+import { PageSevenComponent } from './page-seven/page-seven.component';
+import { PageEightComponent } from './page-eight/page-eight.component';
 
 
 
@@ -37,7 +40,10 @@ import { PageFiveComponent } from './page-five/page-five.component';
     PageTwoComponent,
     PageThreeComponent,
     PageFourComponent,
-    PageFiveComponent
+    PageFiveComponent,
+    PageSixComponent,
+    PageSevenComponent,
+    PageEightComponent
   ],
   imports: [
     BrowserModule,
